@@ -86,3 +86,14 @@ a:hover{
         padding-right: 0px;
     }
 }
+.flex-container{
+    display: flex;
+    background-color: #594a42;
+    justify-content: space-evenly;
+}
+.flex-container > div{
+    background-color: #594a42;
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+}

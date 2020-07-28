@@ -32,3 +32,8 @@
     padding-top: 18px;
     padding-bottom: 18px;
 }
+/* Logo Modules */
+.logo{
+    overflow: hidden;
+    display: inline-block;
+}
