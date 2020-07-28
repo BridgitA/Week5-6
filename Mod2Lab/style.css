@@ -20,6 +20,9 @@
     border-color: #8DC63F;
     color: white;
 }
+.btn-nav {
+    color: white;
+}
 .btn-primary:hover{
     background: none;
     border-color: white;
@@ -43,4 +46,13 @@
 }
 .logo-primary img{
     height: 100%;
+}
+/* Naviagtion Modules */
+.nav > ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-primary {
+    margin-top: 35px;
 }
