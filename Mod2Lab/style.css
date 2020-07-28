@@ -25,3 +25,10 @@
     border-color: white;
     text-decoration: none;
 }
+/* Header Modules */
+.header-primary{
+    background: #9B8579;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
