@@ -20,6 +20,13 @@
     border-color: #8DC63F;
     color: white;
 }
+@media (min-width:48em) {
+    .btn-primary{
+        padding: 10px 15px;
+        font-weight: normal;
+        font-size: 1.125em;
+    }
+}
 .btn-nav {
     color: white;
 }
@@ -36,6 +43,22 @@
 @media (min-width: 48em) {
     .btn-toggle-menu {
         display: none;
+    }
+}
+.btn-hero{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #39B54A;
+}
+.btn-hero:hover{
+    background: none;
+    border-color: white;
+    text-decoration: none;
+
+}
+@media (min-width: 48em) {
+    .btn-hero {
+        font-size: 1.750em;
     }
 }
 /* Header Modules */
