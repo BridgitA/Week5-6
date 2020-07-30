@@ -28,6 +28,16 @@
     border-color: white;
     text-decoration: none;
 }
+.btn-toggle-menu {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+@media (min-width: 48em) {
+    .btn-toggle-menu {
+        display: none;
+    }
+}
 /* Header Modules */
 .header-primary{
     background: #9B8579;
@@ -54,5 +64,11 @@
     margin: 0px;
 }
 .nav-primary {
-    margin-top: 35px;
+    margin-top: 28px;
+    display: none;
+}
+@media (min-width: 48em) {
+    .nav-primary {
+        display: block;
+    }
 }
