@@ -143,6 +143,20 @@
 .background-quinary {
     background: #e7e1d7;
 }
+.testimonial-bg {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.testimonial-bg > image {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    min-width: 100%;
+}
 /* Layout Styles */
 .col-1-2 {
     width: 50%;
