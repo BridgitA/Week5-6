@@ -125,13 +125,19 @@
 .hero-subtitle + button {
     margin-top: 25px;
 }
+.hero-secondary .testimonial-bg > image {
+    opacity: 0.55;
+}
+.hero-body2 {
+    position: relative;
+}
 /* Background Modules */
-.bg-image {
+.bg-image, .bg-image2 {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-.bg-image > img {
+.bg-image > img, .bg-image2 > image {
     position: absolute;
     top: -9999px;
     bottom: -9999px;
@@ -143,20 +149,21 @@
 .background-quinary {
     background: #e7e1d7;
 }
-.testimonial-bg {
+.bg-image2  {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-.testimonial-bg > image {
+.bg-image2 > image {
     position: absolute;
     top: -9999px;
     bottom: -9999px;
     left: -9999px;
     right: -9999px;
     margin: auto;
-    min-width: 100%;
+    min-width: 100%; 
 }
+
 /* Layout Styles */
 .col-1-2 {
     width: 50%;
