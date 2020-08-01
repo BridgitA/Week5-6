@@ -1,0 +1,5 @@
+.hero-primary {
+    @include small-and-above {
+        padding-top: 150px;
+    }
+}
