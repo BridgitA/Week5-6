@@ -15,6 +15,9 @@ Header
       content: "";
       display: table;
       clear: both;
+      .container {
+        @include flexbox-display();
+      }
     }
   }
 }
